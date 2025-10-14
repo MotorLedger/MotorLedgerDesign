@@ -17,7 +17,7 @@ ALTER TABLE users ADD CONSTRAINT pk_users PRIMARY KEY ( user_id );
 
 ALTER TABLE trade_ins ADD (
     CONSTRAINT pk_trade_ins PRIMARY KEY ( trade_in_id ),
-    CONSTRAINT fk_customer_users_trade_ins FOREIGN KEY ( customer_id )
+    CONSTRAINT fk_customer_users_trade_ins FOREIGN KEY ( trade_in_customer_id )
         REFERENCES users ( user_id ),
     CONSTRAINT fk_models_trade_ins FOREIGN KEY ( model_id )
         REFERENCES models ( model_id ),
@@ -43,9 +43,9 @@ ALTER TABLE model_options ADD (
 
 ALTER TABLE sales ADD (
     CONSTRAINT pk_sales PRIMARY KEY ( sale_id ),
-    CONSTRAINT fk_customer_users_sales FOREIGN KEY ( customer_id )
+    CONSTRAINT fk_customer_users_sales FOREIGN KEY ( sale_customer_id )
         REFERENCES users ( user_id ),
-    CONSTRAINT fk_seller_users_sales FOREIGN KEY ( seller_id )
+    CONSTRAINT fk_seller_users_sales FOREIGN KEY ( sale_seller_id )
         REFERENCES users ( user_id ),
     CONSTRAINT fk_models_sales FOREIGN KEY ( model_id )
         REFERENCES models ( model_id ),
