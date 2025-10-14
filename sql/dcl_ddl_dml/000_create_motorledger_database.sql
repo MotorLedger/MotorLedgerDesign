@@ -1,0 +1,4 @@
+@001_create_environment.sql
+@002_create_core_schema.sql
+@003_create_relationships_constraints.sql
+@004_create_triggers.sql
