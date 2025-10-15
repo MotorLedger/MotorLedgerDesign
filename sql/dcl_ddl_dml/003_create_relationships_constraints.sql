@@ -19,7 +19,7 @@ ALTER TABLE trade_ins ADD (
     CONSTRAINT pk_trade_ins PRIMARY KEY ( trade_in_id ),
     CONSTRAINT fk_customer_users_trade_ins FOREIGN KEY ( trade_in_customer_id )
         REFERENCES users ( user_id ),
-    CONSTRAINT fk_models_trade_ins FOREIGN KEY ( model_id )
+    CONSTRAINT fk_models_trade_ins FOREIGN KEY ( trade_in_model_id )
         REFERENCES models ( model_id ),
     CONSTRAINT uk_trade_in_plate UNIQUE ( trade_in_plate ),
     CONSTRAINT ck_appraisal_price CHECK ( trade_in_appraisal_price > 0 )
@@ -47,7 +47,7 @@ ALTER TABLE sales ADD (
         REFERENCES users ( user_id ),
     CONSTRAINT fk_seller_users_sales FOREIGN KEY ( sale_seller_id )
         REFERENCES users ( user_id ),
-    CONSTRAINT fk_models_sales FOREIGN KEY ( model_id )
+    CONSTRAINT fk_models_sales FOREIGN KEY ( sale_model_id )
         REFERENCES models ( model_id ),
     CONSTRAINT fk_trade_ins_sales FOREIGN KEY ( trade_in_id )
         REFERENCES trade_ins ( trade_in_id ),

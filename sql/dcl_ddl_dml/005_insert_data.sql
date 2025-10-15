@@ -264,7 +264,7 @@ INSERT INTO trade_ins (
     trade_in_appraisal_price,
     trade_in_cession_date,
     trade_in_customer_id,
-    model_id
+    trade_in_model_id
 ) VALUES ( 'OLD123',
            6000.00,
            DATE '2024-06-15',
@@ -275,7 +275,7 @@ INSERT INTO trade_ins (
     trade_in_appraisal_price,
     trade_in_cession_date,
     trade_in_customer_id,
-    model_id
+    trade_in_model_id
 ) VALUES ( 'XYZ789',
            8000.00,
            DATE '2023-11-02',
@@ -286,7 +286,7 @@ INSERT INTO trade_ins (
     trade_in_appraisal_price,
     trade_in_cession_date,
     trade_in_customer_id,
-    model_id
+    trade_in_model_id
 ) VALUES ( 'ABC456',
            12000.00,
            DATE '2025-01-10',
@@ -302,7 +302,7 @@ INSERT INTO sales (
     sale_total_price,
     sale_customer_id,
     sale_seller_id,
-    model_id,
+    sale_model_id,
     trade_in_id
 ) VALUES ( TIMESTAMP '2024-06-20 10:30:00',
            'NEW001',
@@ -320,7 +320,7 @@ INSERT INTO sales (
     sale_total_price,
     sale_customer_id,
     sale_seller_id,
-    model_id,
+    sale_model_id,
     trade_in_id
 ) VALUES ( TIMESTAMP '2023-11-10 15:45:00',
            'NEW002',
@@ -340,7 +340,7 @@ INSERT INTO sales (
     sale_total_price,
     sale_customer_id,
     sale_seller_id,
-    model_id,
+    sale_model_id,
     trade_in_id
 ) VALUES ( TIMESTAMP '2025-02-05 11:20:00',
            'NEW003',
@@ -357,7 +357,7 @@ INSERT INTO sales (
     sale_total_price,
     sale_customer_id,
     sale_seller_id,
-    model_id,
+    sale_model_id,
     trade_in_id
 ) VALUES ( TIMESTAMP '2024-09-12 09:00:00',
            'NEW004',
@@ -374,7 +374,7 @@ INSERT INTO sales (
     sale_total_price,
     sale_customer_id,
     sale_seller_id,
-    model_id,
+    sale_model_id,
     trade_in_id
 ) VALUES ( TIMESTAMP '2024-03-18 14:10:00',
            'NEW005',

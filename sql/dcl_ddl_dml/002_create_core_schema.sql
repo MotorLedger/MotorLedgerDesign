@@ -32,7 +32,7 @@ CREATE TABLE trade_ins (
     trade_in_appraisal_price NUMBER(14, 2) NOT NULL,
     trade_in_cession_date    DATE NOT NULL,
     trade_in_customer_id     NUMBER(10) NOT NULL,
-    model_id                 NUMBER(10) NOT NULL
+    trade_in_model_id        NUMBER(10) NOT NULL
 );
 
 CREATE TABLE options (
@@ -60,7 +60,7 @@ CREATE TABLE sales (
     sale_total_price NUMBER(14, 2) NOT NULL,
     sale_customer_id NUMBER(10) NOT NULL,
     sale_seller_id   NUMBER(10) NOT NULL,
-    model_id         NUMBER(10) NOT NULL,
+    sale_model_id    NUMBER(10) NOT NULL,
     trade_in_id      NUMBER(10)
 );
 
