@@ -48,59 +48,61 @@ INSERT INTO options (
 -- Customers
 INSERT INTO users (
     user_name,
-    user_email,
+    user_address,
     user_phone
 ) VALUES ( 'Alice Johnson',
-           'alice.johnson@example.com',
-           '+57 300 111 0001' );
+           '14 Baker Street, London NW1 6XE, United Kingdom',
+           '+44 7400 111001' );
 
 INSERT INTO users (
     user_name,
-    user_email,
+    user_address,
     user_phone
 ) VALUES ( 'Bob Martinez',
-           'bob.martinez@example.com',
-           '+57 300 111 0002' );
+           '22 King’s Road, Manchester M2 4AB, United Kingdom',
+           '+44 7400 111002' );
 
 INSERT INTO users (
     user_name,
-    user_email,
+    user_address,
     user_phone
 ) VALUES ( 'Carmen Ruiz',
-           'carmen.ruiz@example.com',
-           '+57 300 111 0003' );
+           '8 Victoria Avenue, Birmingham B1 1AA, United Kingdom',
+           '+44 7400 111003' );
 
 INSERT INTO users (
     user_name,
-    user_email,
+    user_address,
     user_phone
 ) VALUES ( 'Diego López',
-           'diego.lopez@example.com',
-           '+57 300 111 0004' );
+           '35 Queen Street, Liverpool L1 8JR, United Kingdom',
+           '+44 7400 111004' );
 
 INSERT INTO users (
     user_name,
-    user_email,
+    user_address,
     user_phone
 ) VALUES ( 'Elena García',
-           'elena.garcia@example.com',
-           '+57 300 111 0005' );
+           '10 Highfield Road, Bristol BS8 2XH, United Kingdom',
+           '+44 7400 111005' );
+
 -- Sellers (sales staff)
 INSERT INTO users (
     user_name,
-    user_email,
+    user_address,
     user_phone
 ) VALUES ( 'María Pérez',
-           'maria.perez@motorledger.example',
-           '+57 310 222 0101' );
+           'MotorLedger HQ, 120 Fleet Street, London EC4A 2BE, United Kingdom',
+           '+44 7500 222101' );
 
 INSERT INTO users (
     user_name,
-    user_email,
+    user_address,
     user_phone
 ) VALUES ( 'Juan Gómez',
-           'juan.gomez@motorledger.example',
-           '+57 310 222 0102' );
+           'MotorLedger Regional Office, 78 Deansgate, Manchester M3 2FW, United Kingdom',
+           '+44 7500 222102' );
+
 
 -- 4) MODELS (each model references brand_id)
 INSERT INTO models (
