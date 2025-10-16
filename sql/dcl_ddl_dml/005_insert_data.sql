@@ -388,69 +388,69 @@ INSERT INTO sales (
 -- Must reference model_option_id and sale_id. The price_at_sale may differ slightly from list price.
 -- Sale 1 (sale_id = 1): RAV4 selected model_option_id 4 (metallic) and 5 (navigation)
 INSERT INTO sale_options (
+    option_price_at_sale,
     sale_id,
-    model_option_id,
-    option_price_at_sale
-) VALUES ( 1,
-           4,
-           760.00 );  -- slight discount from 800
+    model_option_id
+) VALUES ( 760.00,
+           1,
+           4 );  -- slight discount from 800
 INSERT INTO sale_options (
+    option_price_at_sale,
     sale_id,
-    model_option_id,
-    option_price_at_sale
-) VALUES ( 1,
-           5,
-           1450.00 ); -- slight discount from 1500
+    model_option_id
+) VALUES ( 1450.00,
+           1,
+           5 ); -- slight discount from 1500
 
 -- Sale 2 (sale_id = 2): Civic selected model_option_id 6 (alloy) and 7 (leather)
 INSERT INTO sale_options (
+    option_price_at_sale,
     sale_id,
-    model_option_id,
-    option_price_at_sale
-) VALUES ( 2,
-           6,
-           850.00 );
+    model_option_id
+) VALUES ( 850.00,
+           2,
+           6 );
 
 INSERT INTO sale_options (
+    option_price_at_sale,
     sale_id,
-    model_option_id,
-    option_price_at_sale
-) VALUES ( 2,
-           7,
-           1400.00 );
+    model_option_id
+) VALUES ( 1400.00,
+           2,
+           7 );
 
 -- Sale 3 (sale_id = 3): Golf selected model_option_id 10 (metallic) and 11 (sunroof)
 INSERT INTO sale_options (
+    option_price_at_sale,
     sale_id,
-    model_option_id,
-    option_price_at_sale
-) VALUES ( 3,
-           10,
-           620.00 );  -- small discount
+    model_option_id
+) VALUES ( 620.00,
+           3,
+           10 );  -- small discount
 INSERT INTO sale_options (
+    option_price_at_sale,
     sale_id,
-    model_option_id,
-    option_price_at_sale
-) VALUES ( 3,
-           11,
-           1050.00 );
+    model_option_id
+) VALUES ( 1050.00,
+           3,
+           11 );
 
 -- Sale 4 (sale_id = 4): Corolla selected model_option_id 1 (AC) and 3 (alloy)
 INSERT INTO sale_options (
+    option_price_at_sale,
     sale_id,
-    model_option_id,
-    option_price_at_sale
-) VALUES ( 4,
-           1,
-           700.00 );
+    model_option_id
+) VALUES ( 700.00,
+           4,
+           1 );
 
 INSERT INTO sale_options (
+    option_price_at_sale,
     sale_id,
-    model_option_id,
-    option_price_at_sale
-) VALUES ( 4,
-           3,
-           900.00 );
+    model_option_id
+) VALUES ( 900.00,
+           4,
+           3 );
 
 -- Sale 5 (sale_id = 5): no options, so no sale_options rows for sale_id = 5
 

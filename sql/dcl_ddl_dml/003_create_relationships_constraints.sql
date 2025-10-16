@@ -56,8 +56,7 @@ ALTER TABLE sales ADD (
 );
 
 ALTER TABLE sale_options ADD (
-    CONSTRAINT pk_sales_options PRIMARY KEY ( sale_id,
-                                              model_option_id ),
+    CONSTRAINT pk_sales_options PRIMARY KEY ( sale_option_id ),
     CONSTRAINT fk_sales_sale_options FOREIGN KEY ( sale_id )
         REFERENCES sales ( sale_id ),
     CONSTRAINT fk_model_options_sale_options FOREIGN KEY ( model_option_id )
