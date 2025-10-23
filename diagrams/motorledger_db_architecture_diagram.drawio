@@ -617,10 +617,10 @@
             <mxRectangle width="310" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Iw839vxWfvBp3IU_2ANT-1" value="motor_ledger" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=6;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Iw839vxWfvBp3IU_2ANT-1" value="motor_ledger" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=6;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="520" y="-70" width="1220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Iw839vxWfvBp3IU_2ANT-2" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&lt;u&gt;motorledger_db&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Iw839vxWfvBp3IU_2ANT-2" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;i&gt;&lt;u&gt;motorledger_db&lt;/u&gt;&lt;/i&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1930" y="310" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
