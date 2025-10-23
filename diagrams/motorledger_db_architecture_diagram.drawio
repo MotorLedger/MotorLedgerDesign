@@ -7,7 +7,7 @@
         <mxCell id="eQgSfWbQVWC980Hx8vv2-156" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#00ED64;" parent="1" vertex="1">
           <mxGeometry x="1930" y="280" width="330" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="eQgSfWbQVWC980Hx8vv2-166" value="Audit log entity change (AOP)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" source="eQgSfWbQVWC980Hx8vv2-3" target="eQgSfWbQVWC980Hx8vv2-157" edge="1">
+        <mxCell id="eQgSfWbQVWC980Hx8vv2-166" value="&lt;div&gt;Spring AOP&lt;/div&gt;Audit log entity change" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;endArrow=ERoneToMany;endFill=0;startArrow=ERmandOne;startFill=0;" parent="1" source="eQgSfWbQVWC980Hx8vv2-3" target="eQgSfWbQVWC980Hx8vv2-157" edge="1">
           <mxGeometry x="0.0036" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint as="offset" />
