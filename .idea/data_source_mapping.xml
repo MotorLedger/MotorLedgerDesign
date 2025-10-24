@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/001_create_environment.sql" value="03134262-3d08-4ad6-a0e5-dae54f80e729" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/001_delete_environment.sql" value="03134262-3d08-4ad6-a0e5-dae54f80e729" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/002_create_core_schema.sql" value="f4d53592-221c-4e00-b844-e5bfab4576b8" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/003_create_relationships_constraints.sql" value="f4d53592-221c-4e00-b844-e5bfab4576b8" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/004_create_triggers.sql" value="f4d53592-221c-4e00-b844-e5bfab4576b8" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/005_insert_data.sql" value="f4d53592-221c-4e00-b844-e5bfab4576b8" />
+  </component>
+</project>
