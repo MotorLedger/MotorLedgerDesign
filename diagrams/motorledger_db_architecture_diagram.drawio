@@ -15,7 +15,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eQgSfWbQVWC980Hx8vv2-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#C74634;" parent="1" vertex="1">
-          <mxGeometry x="400" y="-100" width="1340" height="1160" as="geometry" />
+          <mxGeometry x="400" y="-100" width="1360" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="BRANDS" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="120" width="310" height="90" as="geometry" />
