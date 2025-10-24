@@ -1,7 +1,3 @@
-CONN / as sysdba
-
-ALTER SESSION SET CONTAINER = freepdb1;
-
 ALTER SESSION SET "_ORACLE_SCRIPT" = true;
 
 REVOKE connect, resource FROM motor_ledger;

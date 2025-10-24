@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/001_create_environment.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/001_delete_environment.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/002_create_core_schema.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/003_create_relationships_constraints.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/004_create_triggers.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/oracle/005_insert_data.sql" dialect="Oracle" />
-    <file url="PROJECT" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/postgresql/001_create_core_schema.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/postgresql/002_create_constraints.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/dcl_ddl_dml/postgresql/003_insert_data.sql" dialect="PostgreSQL" />
+    <file url="PROJECT" dialect="OracleSqlPlus" />
   </component>
 </project>
